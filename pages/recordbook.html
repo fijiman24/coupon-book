@@ -12,29 +12,30 @@
 <body>
     <h1>You have redeemed a coupon for RECORD AN AUDIOBOOK</h1>
 
-    <p>From bedtime stories to steamy romance novels, redeem this coupon to have Caleb record an audiobook of your choice.</p>
+    <p>From bedtime stories to steamy romance novels, redeem this coupon to have Caleb record an audiobook of your
+        choice.</p>
 
     <div class="form-container">
         <form action="https://formsubmit.co/halasmish@gmail.com" method="POST">
 
             <div class="form-item">
                 <label>Book title:</label>
-                <input type="text" class="form-control" required>
+                <input type="text" class="form-control" name="book" required>
             </div>
 
             <div class="form-item">
                 <label>Pages to read:</label>
-                <input type="number" class="form-control" required>
+                <input type="number" class="form-control" name="pages" required>
             </div>
 
             <div class="form-item">
                 <label>Date and time to complete recording:</label>
-                <input type="datetime-local" class="form-control" required>
+                <input type="datetime-local" class="form-control" name="date" required>
             </div>
 
             <div class="form-item">
                 <label>Other instructions:</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="other">
             </div>
 
             <br>

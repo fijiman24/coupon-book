@@ -12,19 +12,20 @@
 <body>
     <h1>You have redeemed a coupon for MAKE FOOD</h1>
 
-    <p>From baked goods to deep-fried meats, redeem this coupon to have any meal prepared and delivered to your front door.</p>
+    <p>From baked goods to deep-fried meats, redeem this coupon to have any meal prepared and delivered to your front
+        door.</p>
 
     <div class="form-container">
         <form action="https://formsubmit.co/halasmish@gmail.com" method="POST">
 
             <div class="form-item">
                 <label>Food to make:</label>
-                <input type="text" class="form-control" required>
+                <input type="text" class="form-control" name="order" required>
             </div>
 
             <div class="form-item">
                 <label>Date and time of delivery:</label>
-                <input type="datetime-local" class="form-control" required>
+                <input type="datetime-local" class="form-control" name="date" required>
             </div>
 
             <div class="form-item">
@@ -40,7 +41,7 @@
 
             <div class="form-item">
                 <label>Other instructions:</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="other">
             </div>
 
             <br>
