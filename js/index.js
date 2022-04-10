@@ -25,7 +25,7 @@ function clickSubmit(event) {
         case inputValue == "JOYRIDE":
             window.location.replace("pages/taxiservice.html");
             break;
-        case inputValue == "DAISY":
+        case inputValue == "DOLITTLE":
             window.location.replace("pages/walkdaisy.html");
             break;
         case inputValue == "GENIE":
