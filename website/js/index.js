@@ -10,13 +10,13 @@ function clickSubmit(event) {
         case inputValue == "FEDEX":
             window.location.replace("deliveryservice.html");
             break;
-        case inputValue == "MUSIC":
+        case inputValue == "VELVET":
             window.location.replace("learnsong.html");
             break;
-        case inputValue == "RAMSAY":
+        case inputValue == "FIVESTARMICHELIN":
             window.location.replace("makefood.html");
             break;
-        case inputValue == "OMEN":
+        case inputValue == "GUNPLAY":
             window.location.replace("playvalorant.html");
             break;
         case inputValue == "AUDIBLE":
@@ -25,7 +25,7 @@ function clickSubmit(event) {
         case inputValue == "JOYRIDE":
             window.location.replace("taxiservice.html");
             break;
-        case inputValue == "MILLAN":
+        case inputValue == "DAISY":
             window.location.replace("walkdaisy.html");
             break;
         case inputValue == "GENIE":
