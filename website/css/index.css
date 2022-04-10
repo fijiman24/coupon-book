@@ -18,3 +18,7 @@ body {
 .form-item {
     margin-top: 15px;
 }
+
+.form-check-input {
+    margin-left: 10px;
+}
