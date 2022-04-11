@@ -2,7 +2,7 @@ document.getElementById("submit-button").addEventListener("click", clickSubmit);
 
 function clickSubmit(event) {
     event.preventDefault();
-    var inputValue = document.getElementById("code-input").value;
+    var inputValue = document.getElementById("code-input").value.toUpperCase();
     switch (true) {
         case inputValue == "AUGUST":
             window.location.replace("pages/augustreflection.html");
